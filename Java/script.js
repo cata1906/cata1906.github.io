@@ -36,3 +36,29 @@ window.addEventListener("resize", function(){
 
 })
 
+let pagina_actual = "#Pagina_Inicio";
+document.querySelectorAll("boot").forEach((evento)=> {
+    evento.addEventListener("click", (e)=>{
+        
+        document.querySelector(pagina_actual).style.
+        animate = `animacionSalir 300s ease forwarsd 0s`
+
+        pagina_actual="#Pagina_"+e.target.id
+        document.querySelector(pagina_actual).style.
+        animate =`animacionEntrar 300s ease forwarsd 20s`
+    })
+})
+
+/*$(document).ready(function(){
+
+    var ir_a=$(".desplazar");
+
+    ir_a.click(function(e){
+        e.preventDefault();
+        $("body. html").animate({
+            screenTop: $(this.hash).offset().top
+        },1000
+        );
+    })
+
+})*/
