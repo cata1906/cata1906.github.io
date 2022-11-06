@@ -1,13 +1,18 @@
 .container__Servicios{
     max-width: 1200px;
     padding: 20px;
-    padding-bottom: 40px;
+    height: 600px;
+    padding-bottom: 50px;
     margin: auto;
-    margin-top: 200px;
+    padding-top: 300px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
 
+}
+.fondo{
+    background-image: url("../Imagenes/ima1.png");
 }
 .S{
     position: absolute;
@@ -120,7 +125,8 @@
     width: 100%;
     padding-bottom: 20px;
     margin: auto;
-    margin-top: 90px;
+    padding-top: 210px;
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     overflow: hidden;
@@ -251,12 +257,20 @@ input[id="3"]:checked ~ .pagination .pagination-item[for="3"]{
     font-size: 18px;
     margin-top: 25px;
 }
+
 .desctipN{
     
     max-width: 995px;
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+@media screen and (max-width:1077px) {
+   
+    .container__Servicios{
+        margin-top: -50px;
+        padding-top: 160px;
+    }
 }
 @media screen and (max-width:830px) {
    
@@ -278,10 +292,20 @@ input[id="3"]:checked ~ .pagination .pagination-item[for="3"]{
     }
     
 }
+
 @media screen and (max-width:760px) {
    
     .container__Servicios{
-        margin-top: 80px;
+        margin-top: 10px;
+    }
+    .S{
+        margin-top: -60px;
+    }
+}
+@media screen and (max-width:737px) {
+   
+    .container_Nosotros{
+        margin-top: 280px;
     }
 }
 @media screen and (max-width:490px) {
@@ -299,8 +323,11 @@ input[id="3"]:checked ~ .pagination .pagination-item[for="3"]{
 @media screen and (max-width:365px) {
    
     .container__Servicios{
-        margin-top: 40px;
-        padding-left: 40px;
+        margin-top: -100px;
+    }
+    
+    .S{
+        margin-top: -60px;
     }
 }
 @media screen and (max-width:301px) {
@@ -309,6 +336,7 @@ input[id="3"]:checked ~ .pagination .pagination-item[for="3"]{
         margin-top: -50px;
         
     }
+    
     .p1{
         font-size: 12px;
     }
