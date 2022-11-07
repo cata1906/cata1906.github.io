@@ -10,8 +10,15 @@ window.onscroll = function(){
         header.classList.remove('nav_mod');
     }
 }
-
 document.getElementById("btn_menu").addEventListener("click", mostrar_menu);
+document.getElementById("Inicio").addEventListener("click", borrar_menu);
+document.getElementById("Planes").addEventListener("click", borrar_menu);
+document.getElementById("Servici").addEventListener("click", borrar_menu);
+document.getElementById("Nosot").addEventListener("click", borrar_menu);
+document.getElementById("App").addEventListener("click", borrar_menu);
+document.getElementById("Planes").addEventListener("click", borrar_menu);
+document.getElementById("Contactanos").addEventListener("click", borrar_menu);
+
 
 
 menu = document.getElementById("header");
@@ -35,6 +42,14 @@ window.addEventListener("resize", function(){
     }
 
 })
+
+function borrar_menu(){
+    
+    menu.classList.remove('moverconte');
+    body.classList.remove('moverconte');
+    nav.classList.remove('move_nav');
+   
+}
 
 let pagina_actual = "#Pagina_Inicio";
 document.querySelectorAll("boot").forEach((evento)=> {
