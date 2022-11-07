@@ -19,7 +19,7 @@
     color: rgb(215, 177, 126);
     margin-bottom: 20px;
     padding-left: 40%;
-    text-shadow: 2px 2px 5px #9cb3bd;
+    text-shadow: 2px 2px 5px #95aeb9;
 }
 
 .cor,.tel{
@@ -122,7 +122,7 @@
    border-radius: 8px;
    padding-top: 5%;
    padding-bottom: 5%;
-   text-shadow: 2px 2px 5px #c87373;
+   text-shadow: 2px 2px 5px #ae6161;
 }
 .mensaje input{
     font-size: 15px;
