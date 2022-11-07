@@ -294,7 +294,7 @@ footer{
 }
 .cajaF h2{
     margin-bottom: 30px;
-    color: bisque;
+    color: rgb(222, 198, 168);
     font-weight: 700;
 }
 .cajaF a{
@@ -386,6 +386,7 @@ footer{
         margin-left: 60%;
     }
 }
+
 @media screen and (max-width:983px) {
     .nave{
         display: flex;
