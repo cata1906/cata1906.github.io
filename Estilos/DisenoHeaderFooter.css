@@ -386,7 +386,7 @@ footer{
         margin-left: 60%;
     }
 }
-@media screen and (max-width:870px) {
+@media screen and (max-width:983px) {
     .nave{
         display: flex;
         justify-content: center;
