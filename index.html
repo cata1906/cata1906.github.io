@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Martel" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Zen Antique" rel="stylesheet" type="text/css">
     
+    
 
     <head>
         <meta charset="UTF-8">
@@ -50,6 +51,7 @@
             </div>
         </header>
         <div class="container__all" id="container_all">
+           
             <div class="cover">
 
                 <div class="bg_color"></div>
@@ -66,8 +68,8 @@
                     <div class="contenedor_vector">
                      <img class= "ima2" src="Imagenes/analisis1.png" alt=" ">
                      <img class="ima3" src="Imagenes/analisis2.png" alt=" ">
-                     <button class="b1"> <a href=""></a>Medico</button> 
-                     <button class="b2"> <a href=""></a>Paciente</button>    
+                     <button class="b1" id="Regsitro_Medico"> <a href=""></a>Medico</button> 
+                     <button class="b2" id="Regsitro_Paciente"> <a href=""></a>Paciente</button>    
                     </div>
               </div>
             </div>
@@ -146,7 +148,7 @@
                     </div>
 
                     <div class="desctipN">
-                        <p class="p1">Nuestra startup "FEATURE GENERATIONS" se dedica a  ayudar a las personas a poder detectar a tiempo si tiene alguna anomalia genetica la cual te genere enfemedades tales como el cancer  todo ello mediante el reconocimiento de patrones de la estructura del ADN para poder tratarla a tiempo asi mismo ayuda a las investigaciones, todo ello con la App Genetech </p>
+                        <p class="p1">Nuestra startup "FEATURE GENERATIONS" se dedica a ayudar a las personas a poder detectar a tiempo si tiene alguna anomalías genéticas la cual te genere enfermedades tales como el cáncer todo ello mediante el reconocimiento de patrones de la estructura del ADN para poder tratarla a tiempo así mismo ayuda a las investigaciones, todo ello con la ayuda de nuestra página web , en este caso nuestra Landing page y nuestra aplicación donde brindara los diferentes servicios que podrán evaluar y comparar tu ADN para poder darte un reporte preciso.</p>
                     </div>
                 </div>
                
@@ -170,14 +172,14 @@
                     
                     <div class="cels3">
                         <div class="decripA">
-                            <p class="parra">Esta app te ayuda a poder analizar tu ADN mediante análisis de sangre, esta aplicación está dirigida tanto para pacientes y especialistas de salud.</p>
+                            <p class="parra">Esta app te ayuda a poder analizar tu ADN mediante un análisis de sangre, esta aplicación está dirigida tanto para pacientes y especialistas de salud.</p>
                             <h4 >Download APP</h4>
 
                         </div>
 
                         <div class="conteA">
                             <img class="senal" src="Imagenes/senalando.png" alt="">
-                            <img class="qr" src="Imagenes/qr.png" alt="">
+                            <img class="qr" src="Imagenes/qr2.png" alt="">
 
                         </div>
                         
@@ -247,11 +249,11 @@
 
                             <div class="Men">
                                 
-                                <input  class="cuadrotexto" placeholder="Nombre" required>
-                                <input  class="cuadrotextos" placeholder="Apellido" required>
-                                <input  class="cuadrotexto1" placeholder="Correo" required>
-                                <input  class="cuadrotexto2" placeholder="Mensaje"  required>
-                                <a href="#"> <button class="envi" type="submit">Enviar</button></a>
+                                <input  type="text" class="cuadrotexto" placeholder="Nombre" required>
+                                <input  type="text" class="cuadrotextos" placeholder="Apellido" required>
+                                <input  type="text" class="cuadrotexto1" placeholder="Correo" required>
+                                <input  type="text" class="cuadrotexto2" placeholder="Mensaje"  required>
+                                <button  class="envi" type="submit">Enviar</button>
 
 
                             </div>
@@ -271,7 +273,7 @@
                         </div>
                         <div class="term">
                             <h2 class="Empre">Terminos</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas impedit cum cumque velit libero officiis quam doloremque reprehenderit quae corpo </p>
+                            <p>El siguiente es solo un esquema y una ilustración limitada de alto nivel de los principales problemas que generalmente se tratan en los Términos de las páginas web</p>
                         </div>
                     </div>
                    
@@ -298,11 +300,11 @@
                     </div>
                     <div class="cajaF">
                         <h2 class="redes">Redes Sociales</h2>
-                        <a  href="#"><img class="L" src="Imagenes/linkedin.png" alt=""> linkedin</a>
-                        <a  href="#"><img class="L" src="Imagenes/instagram.png" alt="">Instagram</a>
-                        <a  href="#"><img class="L" src="Imagenes/youtube.png" alt="">Youtube</a>
-                        <a  href="#"><img class="L" src="Imagenes/facebook.png" alt="">Facebook</a>
-                        <a  href="#"><img class="L" src="Imagenes/whatsapp.png" alt="">Whatsapp</a>
+                        <a  href="https://www.linkedin.com/learning/"><img class="L" src="Imagenes/linkedin.png" alt=""> linkedin</a>
+                        <a  href="https://www.instagram.com/"><img class="L" src="Imagenes/instagram.png" alt="">Instagram</a>
+                        <a  href="https://www.youtube.com/"><img class="L" src="Imagenes/youtube.png" alt="">Youtube</a>
+                        <a  href="https://www.facebook.com/"><img class="L" src="Imagenes/facebook.png" alt="">Facebook</a>
+                        <a  href="https://web.whatsapp.com/"><img class="L" src="Imagenes/whatsapp.png" alt="">Whatsapp</a>
                     </div>
                 </div>
                 <div class="caja_line">
@@ -311,8 +313,44 @@
                 </div>
             </footer>
 
+            <div class="overlay" id="overlay">
+                <div class="emergente">
+                    <!--caja trasera-->
+                  <div class="caja_trasera" id="caja_trasera">
+                       <div class="trasera_login">
+                            <h3>¿Ya tienes cuenta?</h3>
+                            <p>Iniciar secion en Genetech</p>
+                            <input type="submit" class="btn-submit  IniciarSecc"  id="Cambiar1" value="Iniciar">
+                        </div>
+                    
+                        <div class="trasera_registro">
+                            <h3>¿Aun no tienes cuenta?</h3>
+                            <p>Registrate para que puedas iniciar secion en Genetech</p>
+                            <input type="submit" class="btn-submit "  id="Cambiar2" value="Registrarse">
+                        
+                        </div>
+                  </div>
+                   <!--Formulario de login y registro-->
+                    <div class="caja_login" id="caja_login">
+                        <form action="" class="formulario_login">
+                            <h2>Iniciar Sesión</h2>
+                            <input type="text" placeholder="Correo Electronico">
+                            <input type="password" placeholder="Contraseña"> 
+                            <input type="submit" class="btn-submit"  id="Cerrar_ventana" value="Iniciar">
+                        </form>
 
-
+                        <form action="" class="formulario_registro">
+                            <h2>Registrarse</h2>
+                            <input type="text" placeholder="Nombre comlpeto">
+                            <input type="text" placeholder="Correo Electronico">
+                            <input type="text" placeholder="Usuario">
+                            <input type="password" placeholder="Contraseña">
+                            <input type="submit" class="btn-submit"  id="Cerrar_ventana2" value="Registrase">
+                        </form>
+                    </div>
+                </div>
+                
+            </div>
 
 
         </div>

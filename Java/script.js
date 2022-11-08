@@ -10,6 +10,7 @@ window.onscroll = function(){
         header.classList.remove('nav_mod');
     }
 }
+
 document.getElementById("btn_menu").addEventListener("click", mostrar_menu);
 document.getElementById("Inicio").addEventListener("click", borrar_menu);
 document.getElementById("Planes").addEventListener("click", borrar_menu);
@@ -18,6 +19,7 @@ document.getElementById("Nosot").addEventListener("click", borrar_menu);
 document.getElementById("App").addEventListener("click", borrar_menu);
 document.getElementById("Planes").addEventListener("click", borrar_menu);
 document.getElementById("Contactanos").addEventListener("click", borrar_menu);
+
 
 
 
@@ -33,6 +35,7 @@ function mostrar_menu(){
    
 }
 
+
 window.addEventListener("resize", function(){
 
     if(window.innerWidth > 760){
@@ -42,7 +45,6 @@ window.addEventListener("resize", function(){
     }
 
 })
-
 function borrar_menu(){
     
     menu.classList.remove('moverconte');
@@ -50,6 +52,8 @@ function borrar_menu(){
     nav.classList.remove('move_nav');
    
 }
+/*------------------------------------------------------------------------*/ 
+
 
 let pagina_actual = "#Pagina_Inicio";
 document.querySelectorAll("boot").forEach((evento)=> {
@@ -64,6 +68,48 @@ document.querySelectorAll("boot").forEach((evento)=> {
     })
 })
 
+var btnAbrirPopup = document.getElementById('Regsitro_Medico'),
+	overlay = document.getElementById('overlay'),
+	popup = document.getElementById('caja_trasera'),
+	btnCerrarPopup = document.getElementById('Cerrar_ventana');
+    
+    
+
+btnAbrirPopup.addEventListener('click', function(){
+	overlay.classList.add('active');
+	popup.classList.add('active');
+});
+
+btnCerrarPopup.addEventListener('click', function(e){
+	e.preventDefault();
+	overlay.classList.remove('active');
+	popup.classList.remove('active');
+});
+
+
+var btnAbrirPopup = document.getElementById('Regsitro_Paciente'),
+	overlay = document.getElementById('overlay'),
+	popup = document.getElementById('popup'),
+	btnCerrarPopup = document.getElementById('Cerrar_ventana');
+    btnCerrarPopup2 = document.getElementById('Cerrar_ventana2');
+
+btnAbrirPopup.addEventListener('click', function(){
+	overlay.classList.add('active');
+	popup.classList.add('active');
+});
+
+btnCerrarPopup.addEventListener('click', function(e){
+	e.preventDefault();
+	overlay.classList.remove('active');
+	popup.classList.remove('active');
+});
+
+btnCerrarPopup2.addEventListener('click', function(e){
+	e.preventDefault();
+	overlay.classList.remove('active');
+	popup.classList.remove('active');
+});
+
 /*$(document).ready(function(){
 
     var ir_a=$(".desplazar");
@@ -77,3 +123,62 @@ document.querySelectorAll("boot").forEach((evento)=> {
     })
 
 })*/
+
+document.getElementById("Cambiar1").addEventListener("click", iniciarSesion);
+document.getElementById("Cambiar2").addEventListener("click", register);
+window.addEventListener("resize", anchoPage);
+/*declarando variables*/
+var formulario_login = document.querySelector(".formulario_login");
+var formulario_register = document.querySelector(".formulario_registro");
+var contenedor_login_register = document.querySelector(".caja_login");
+var caja_trasera_login = document.querySelector(".trasera_login");
+var caja_trasera_register = document.querySelector(".trasera_registro");
+
+function anchoPage(){
+
+    if (window.innerWidth > 850){
+        caja_trasera_register.style.display = "block";
+        caja_trasera_login.style.display = "block";
+    }else{
+        caja_trasera_register.style.display = "block";
+        caja_trasera_register.style.opacity = "1";
+        caja_trasera_login.style.display = "none";
+        formulario_login.style.display = "block";
+        contenedor_login_register.style.left = "0px";
+        formulario_register.style.display = "none";   
+    }
+}
+anchoPage();
+
+
+    function iniciarSesion(){
+        if (window.innerWidth > 850){
+            formulario_login.style.display = "block";
+            contenedor_login_register.style.left = "10px";
+            formulario_register.style.display = "none";
+            caja_trasera_register.style.opacity = "1";
+            caja_trasera_login.style.opacity = "0";
+        }else{
+            formulario_login.style.display = "block";
+            contenedor_login_register.style.left = "0px";
+            formulario_register.style.display = "none";
+            caja_trasera_register.style.display = "block";
+            caja_trasera_login.style.display = "none";
+        }
+    }
+    function register(){
+        if (window.innerWidth > 850){
+            formulario_register.style.display = "block";
+            contenedor_login_register.style.left = "410px";
+            formulario_login.style.display = "none";
+            caja_trasera_register.style.opacity = "0";
+            caja_trasera_login.style.opacity = "1";
+        }else{
+            formulario_register.style.display = "block";
+            contenedor_login_register.style.left = "0px";
+            formulario_login.style.display = "none";
+            caja_trasera_register.style.display = "none";
+            caja_trasera_login.style.display = "block";
+            caja_trasera_login.style.opacity = "1";
+        }
+}
