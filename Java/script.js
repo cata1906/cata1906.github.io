@@ -70,8 +70,7 @@ document.querySelectorAll("boot").forEach((evento)=> {
 
 var btnAbrirPopup = document.getElementById('Regsitro_Medico'),
 	overlay = document.getElementById('overlay'),
-	popup = document.getElementById('caja_trasera'),
-	btnCerrarPopup = document.getElementById('Cerrar_ventana');
+	popup = document.getElementById('caja_trasera');
     
     
 
@@ -79,26 +78,25 @@ btnAbrirPopup.addEventListener('click', function(){
 	overlay.classList.add('active');
 	popup.classList.add('active');
 });
-
-btnCerrarPopup.addEventListener('click', function(e){
+/*btnCerrarPopup.addEventListener('click', function(e){
 	e.preventDefault();
 	overlay.classList.remove('active');
 	popup.classList.remove('active');
-});
+}); */
+
 
 
 var btnAbrirPopup = document.getElementById('Regsitro_Paciente'),
 	overlay = document.getElementById('overlay'),
-	popup = document.getElementById('popup'),
-	btnCerrarPopup = document.getElementById('Cerrar_ventana');
-    btnCerrarPopup2 = document.getElementById('Cerrar_ventana2');
+	popup = document.getElementById('popup');
+
+
 
 btnAbrirPopup.addEventListener('click', function(){
 	overlay.classList.add('active');
 	popup.classList.add('active');
 });
-
-btnCerrarPopup.addEventListener('click', function(e){
+/*btnCerrarPopup.addEventListener('click', function(e){
 	e.preventDefault();
 	overlay.classList.remove('active');
 	popup.classList.remove('active');
@@ -108,7 +106,8 @@ btnCerrarPopup2.addEventListener('click', function(e){
 	e.preventDefault();
 	overlay.classList.remove('active');
 	popup.classList.remove('active');
-});
+}); */
+
 
 /*$(document).ready(function(){
 
@@ -123,7 +122,7 @@ btnCerrarPopup2.addEventListener('click', function(e){
     })
 
 })*/
-
+/*------------------------------------------------------------------------------------ */
 document.getElementById("Cambiar1").addEventListener("click", iniciarSesion);
 document.getElementById("Cambiar2").addEventListener("click", register);
 window.addEventListener("resize", anchoPage);
@@ -148,9 +147,9 @@ function anchoPage(){
         formulario_register.style.display = "none";   
     }
 }
-anchoPage();
 
-
+   anchoPage(); 
+   
     function iniciarSesion(){
         if (window.innerWidth > 850){
             formulario_login.style.display = "block";
@@ -181,4 +180,4 @@ anchoPage();
             caja_trasera_login.style.display = "block";
             caja_trasera_login.style.opacity = "1";
         }
-}
+    }
