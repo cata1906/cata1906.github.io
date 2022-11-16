@@ -496,7 +496,9 @@
         width: 85%;
         height: 500px;
     }
-   
+    .PortadaSubcri h2{
+        font-size: 35px;
+    }
     .tablas1 .Tabla>h5{
         margin-top: 0px;
         
