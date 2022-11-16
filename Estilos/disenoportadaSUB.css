@@ -488,10 +488,14 @@
     .Tabla .b_1{
         margin-left: -25px;
     }
+    .PortadaSubcri h2{
+        font-size: 35px;
+        margin-left: 45px;
+    }
     
    
 }
-@media screen and (max-width: 316px) {
+@media screen and (max-width: 318px) {
     .tablas1 .Tabla{
         width: 85%;
         height: 500px;
@@ -499,6 +503,7 @@
     .PortadaSubcri h2{
         font-size: 35px;
     }
+   
     .tablas1 .Tabla>h5{
         margin-top: 0px;
         

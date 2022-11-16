@@ -752,6 +752,7 @@
         height: 450px;
         
     }
+    .PortadaConta
     .correo ,.telef{
         margin-left: 7%;
     }
@@ -799,7 +800,8 @@
     }
     .PortadaConta h2{
         margin-top: -20px;
-        font-size: 40px;
+        margin-left: 20px;
+        font-size: 35px;
     }
     
     .envi{

@@ -1355,6 +1355,18 @@ footer{
         padding-right: 0px;
         margin-left: -100px;
     }
+    .contenedor_info h1{
+        width: 150px;
+        margin-left: 200px;
+       }
+       .contenedor_info h2{
+        width: 200px;
+        margin-left: 180px;
+       }
+       .ima1{
+       width: 220px;
+        margin-left: 170px;
+       }
    
 }
 @media screen and (max-width:325px) {
