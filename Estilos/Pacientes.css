@@ -1,0 +1,1504 @@
+/*Inicio*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo {
+    color: #0987db;
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.conte{
+    background-color: #a2d8eeb0;
+    max-width: 2000px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0px 20px;
+}
+.container__all{
+    position: relative;
+    
+    right: 0;
+    max-width: 2000px;
+    transition: all 300ms;
+}
+.contenedorheader2 {
+    position: relative;
+    margin-top: 100px;
+    width: 100%;
+    height: 400px;
+    background: #9dc5d1ce;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(189, 44%, 77%, 0.904), hsla(240, 100%, 75%, 0.856)), url(../Imagenes/paciente.webp);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(216, 15%, 81%, 0.747), hsla(199, 11%, 65%, 0.719)), url(../Imagenes/paciente.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    text-align: center;
+
+}
+.contenedorheader2 .text{
+    position: relative;
+    padding-top: 100px;
+    
+}
+.contenedorheader2 h1{
+    font-size: 460%;
+    color: white;
+    text-shadow: 2px 2px 7px #1a698b;
+    margin-bottom: 10px;
+}
+.contenedorheader2 h2{
+    font-size: 200%;
+    color: rgb(131, 173, 212);
+    text-shadow: 2px 2px 7px #ffffff;
+    margin-bottom: 10px;
+}
+.contenedorIni h2{
+    font-size: 350%;
+    color: rgb(116, 163, 185);
+    text-shadow: 2px 2px 7px #aedaee;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.contenedorIni{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    max-width: 1600px;
+    margin: auto;
+}
+.nav_mod2{
+    height: 70px;
+    box-shadow: 1px 1px 10px 0px #00000010;
+    background-color: white;
+    
+}
+nav{
+    height: 100%;
+    transition: all 300ms;
+}
+.moverconte{
+    right: 180px;
+}
+
+.contenedorgeneralIni{
+    max-width: 1600px;
+    position: relative;
+    padding: auto;
+    height: 450px;
+   justify-content: space-between;
+    display: flex;
+}
+.contenedorvideo{
+    width: 800px;
+}
+.contenidiordetexto{
+    width: 800px;
+}
+
+.contenidiordetexto p{
+    margin-left: 100px;
+    max-width: 500px;
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: justify;
+}
+.contenidiordetexto img{
+    position:absolute;
+    width: 10%;
+    margin-top: -80px;
+    margin-left: 170px
+}
+
+/*------------------------Servicios-----------------------------*/
+.container__Servicios2{
+    max-width: 1600px;
+    height: 1000px;
+    padding-bottom: 10px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+.fondo2{
+    max-width: 2000px;
+    background-color: #d7eef8;
+}
+.container__Servicios2 h2{
+    position: absolute;
+    text-align: center;
+    font-size: 85px;
+    margin-top: 100px;
+    color: rgb(215, 177, 126);
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px #78acc2;
+}
+.list{
+    width: 800px;
+    margin-top: 300px;
+    height: 1000px;
+}
+.list ol  li {
+  font-size: 35px;
+  max-width: 500px;
+  margin-top: 5px;
+  text-align: justify;
+}
+.deco{
+    width: 800px;
+    height: 1000px;
+}
+.imagnesServi{
+    width: 800px;
+    margin-top: 150px;
+}
+.imagnesServi .imaA{
+    width: 50%;
+    margin-top: 100px;
+}
+.imagnesServi .imaB{
+    position: relative;
+    width: 40%;
+    margin-top: -120px;
+    margin-left: 290px;
+}
+.imagnesServi .imaC{
+    margin-top: -80px;
+    margin-left: 13px;
+    width: 42%;
+}
+.imagnesServi .imaD{
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 220px;
+    width: 15%;
+}
+.imagnesServi .imaE{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 25px;
+    width: 14%;
+}
+.imagnesServi .imaF{
+    position: absolute;
+    margin-top: -330px;
+    margin-left: 55px;
+    width: 9%;
+}
+.tablasSu{
+    position: relative;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: 200px;
+    align-content: center;
+    
+    
+}
+
+.TablaSUB{
+    background-color: rgb(255, 255, 255);
+    width: 65%;
+    height: 200px;
+    border: 1px solid rgb(249, 235, 235);
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 0px rgb(116, 145, 199);
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.TablaSUB> h5{
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 5px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 30px;
+    margin-top: 0%;
+    margin-bottom:35px;
+    
+}
+.co{
+    color: rgb(250, 249, 249);
+    background-color: rgb(108, 160, 144);
+    border-radius: 10px;
+}
+.TablaSUB>.ima1{
+    width: 190px;
+    height: 45%;
+    margin-top: -10px;
+    margin-left: -200px;
+    padding-top:0%;
+    padding-left: 5%;
+    margin-bottom: 10px;
+    border-radius: 30%;
+}
+.plan{
+    margin-left: 195px;
+    margin-top: -100px;
+}
+.TablaSUB .plan>h6{
+    padding-right: 5%;
+    margin-top: -65px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.b_1{
+    display: inline-block;
+    width: 100px;
+    margin-top: -2px;
+    margin-left: -10px;
+    background: rgb(126, 176, 252);
+    text-decoration: none;
+    color: rgb(20, 20, 24);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 9px;
+    padding-left: 4px;
+    padding-right: 4px;
+    
+}
+.b_1:hover{
+    background-color: #aedaee;
+    color: rgb(20, 20, 20);
+}
+.TB:hover{
+    background-color: rgb(139, 218, 155);
+    color: rgb(255, 255, 255);
+    transition: 0.8s all;
+    transform: scale(1.1);
+    cursor: pointer;
+    
+}
+
+/*------------------------APP-----------------------------*/
+.ContenedorAppli{
+    max-width: 1600px;
+    height: 1000px;
+    padding-bottom: 10px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.ContenedorAppli h2{
+    position: absolute;
+    text-align: center;
+    font-size: 85px;
+    margin-top: 70px;
+    color: rgb(215, 177, 126);
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px #78acc2;
+}
+.deco2{
+    width: 800px;
+    height: 1000px;
+    margin-top: 300px;
+}
+.deco2 .cl1{
+    width: 33%;
+}
+.deco2 .cl2{
+    position: absolute;
+    margin-top: 100px;
+    width: 199px;
+}
+.deco2 .cl3{
+    width: 35%;
+}
+.infor{
+    width: 800px;
+    height: 1000px;
+    margin-top: 300px;
+}
+.infor p{
+    margin-top: -50px;
+    font-size: 30px;
+    text-align:justify;
+}
+.lista{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.lista ol li{
+    font-family:'Courgette';
+    margin-top: 5px;
+    font-size: 22px;
+}
+.videoPac{
+    position: absolute;
+    margin-top: -280px;
+    margin-left: 250px;
+}
+.lista button{
+    font-family:'Courgette';
+    margin-top: 35px;
+    font-size: 22px;
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 5px;
+    background-color: rgb(131, 190, 183);
+    color: white;
+    border: #78acc2;
+    box-shadow: 0px 0px 4px 0px rgb(25, 56, 112);
+}
+
+.lista button:hover{
+    background-color: rgb(138, 200, 224);
+    color: rgb(255, 255, 255);
+    transition: 0.8s all;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+/*Resposive*/
+@media screen and (max-width:1650px) {
+    .deco{
+        margin-left: -80px
+    }
+    .list{
+        margin-left: 30px;
+    }
+}@media screen and (max-width:1640px) {
+    .ContenedorAppli{
+        height: 1600px;
+        padding-bottom: 350px;
+    }
+
+    .deco2{
+        margin-left: 50px;
+        height: 400px;
+    }
+    .infor{
+        margin-left: 50px;
+        height: 400px;
+    }
+}
+@media screen and (max-width:1568px) {
+    .container__Servicios2{
+        height: 13000%;
+    }
+    
+    .deco{
+        margin-top: -580px;
+        margin-left: 80px;
+    }
+    .list{
+        margin-left: 450px;
+    }
+}
+@media screen and (max-width:1500px) {
+   
+    .contenidiordetexto img{
+        position:absolute;
+        width: 7%;
+        margin-top: 0px;
+        margin-left: 130px
+    }
+    .imagnesServi .imaF{
+        position: absolute;
+        margin-top: -330px;
+        margin-left: 55px;
+        width: 13%;
+    }
+}
+@media screen and (max-width:1265px) {
+   
+    .list{
+        margin-left: 35%;
+    }
+    .deco{
+        margin-left: 7%;
+    }
+    
+}
+@media screen and (max-width:1250px) {
+   
+    .contenedorvideo iframe{
+        width: 450px;
+        height: 300px;
+    }
+    .contenidiordetexto{
+        margin-top: -10px;
+    }
+    .contenidiordetexto p{
+        font-size: 25px;
+        max-width: 400px;
+        margin-left: 0px;
+    }
+    .contenidiordetexto img{
+        margin-left: 80px;
+        margin-top: -10px;
+        
+    }
+}
+@media screen and (max-width:1100px) {
+   
+    .list{
+        margin-left: 30%;
+    }
+    .deco{
+        margin-left: 7%;
+    }
+    .infor p{
+        margin-top: -50px;
+        font-size: 25px;
+        text-align:justify;
+    }
+    .videoPac iframe{
+        width: 450px;
+        height: 300px;
+        margin-left: 100px;
+    }
+    
+}
+
+@media screen and (max-width:980px) {
+   .contenedorIni{
+    height: 1100px;
+   }
+    .contenedorvideo{
+        margin-left: 16%;
+    }
+    .contenedorvideo iframe{
+        width: 650px;
+        height: 350px;
+    }
+    .contenidiordetexto{
+        margin-left: -57%;
+        margin-top: 400px;
+    }
+    .contenidiordetexto p{
+        font-size: 35px;
+        max-width: 600px;
+        margin-left: -100px;
+    }
+    .contenidiordetexto img{
+        position:absolute;
+        width: 12%;
+        margin-top: 0px;
+        margin-left: 60px
+    }
+    .imagnesServi .imaA{
+        width: 38%;
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+    .imagnesServi .imaB{
+        position: relative;
+        width: 30%;
+        margin-top: -120px;
+        margin-left: 290px;
+    }
+    .imagnesServi .imaC{
+        margin-top: -80px;
+        margin-left: 83px;
+        width: 32%;
+    }
+    .imagnesServi .imaD{
+        position: absolute;
+        margin-top: -200px;
+        margin-left: 140px;
+        width: 220px;
+    }
+    .imagnesServi .imaE{
+        position: absolute;
+        margin-top: -10px;
+        margin-left: 25px;
+        width: 190px;
+    }
+    .imagnesServi .imaF{
+        position: absolute;
+        margin-top: -240px;
+        margin-left: 27px;
+        width: 115px;
+    }
+    .container__Servicios2 h2{
+        position: absolute;
+        text-align: center;
+        font-size: 75px;
+        margin-top: 100px;
+        color: rgb(215, 177, 126);
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 5px #78acc2;
+    }
+    .list ol  li {
+        font-size: 30px;
+        max-width: 500px;
+        margin-top: 5px;
+    }
+    .list{
+        margin-left: 20%;
+    }
+    .ContenedorAppli h2{
+        position: absolute;
+        text-align: center;
+        font-size: 75px;
+        margin-top: 100px;
+        color: rgb(215, 177, 126);
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 5px #78acc2;
+    }
+    
+}
+@media screen and (max-width:930px) {
+   
+    .list{
+        margin-left: 30%;
+    }
+    .deco{
+        margin-left: 7%;
+    }
+    .infor{
+        margin-left: 0px;
+    }
+    .contenidiordetexto p{
+        margin-left: -120px;
+    }
+    .infor p{
+        max-width: 700px;
+        margin-left: 5%;
+        margin-top: -50px;
+        font-size: 25px;
+        text-align:justify;
+    }
+    .videoPac iframe{
+        width: 400px;
+        height: 200px;
+        margin-left: 100px;
+    }
+    
+}
+@media screen and (max-width:878px) {
+   
+    .tablasSu{
+        position: relative;
+        height: 200px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 70px;
+        margin-left:230px;
+        margin-right:0px;
+        width: 300px;
+        align-content: center; 
+    }
+    .contenidiordetexto{
+        margin-left: 270px;
+    }
+    .contenedorvideo {
+        position: absolute;
+        width: 12%;
+        margin-top: 0px;
+        margin-left: 100px;
+    }
+    .list{
+        margin-left: 18%;
+    }
+    .deco{
+        margin-left: -100px;
+    }
+    .contenidiordetexto p{
+        margin-left: -150px;
+    }
+    .TablaSUB{
+        background-color: rgb(255, 255, 255);
+        width: 125%;
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 200px;
+        border: 1px solid rgb(249, 235, 235);
+        border-radius: 10px;
+        box-shadow: 0px 0px 4px 0px rgb(116, 145, 199);
+        text-align: center;
+        color: rgb(0, 0, 0);
+    }
+    .imagnesServi {
+        width: 300px;
+        margin-top: 150px;
+    }
+    .imagnesServi .imaA{
+    width: 65%;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.imagnesServi .imaB{
+    position: relative;
+    width: 50%;
+    margin-top: -120px;
+    margin-left: 390px;
+}
+.imagnesServi .imaC{
+    margin-top: -50px;
+    margin-left: 223px;
+    width: 52%;
+}
+.imagnesServi .imaD{
+    position: absolute;
+    margin-top: -220px;
+    margin-left: 520px;
+    width: 20%;
+}
+.imagnesServi .imaE{
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 425px;
+    width: 16%;
+}
+.imagnesServi .imaF{
+    position: absolute;
+    margin-top: -270px;
+    margin-left: 395px;
+    width: 15%;
+}
+.tablasSu {
+    position: relative;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: 250px;
+    margin-right: 0px;
+    width: 300px;
+    align-content: center;
+}
+}
+@media screen and (max-width:768px) {
+   
+  .contenedorIni{
+    margin-left: -50px;
+    height: 800px;
+  }
+  .contenedorheader2 h1 {
+    font-size: 400%;
+    color: white;
+    text-shadow: 2px 2px 7px #1a698b;
+    margin-bottom: 10px;
+  }
+  .contenedorheader2 h2 {
+    font-size: 150%;
+    color: rgb(131, 173, 212);
+    text-shadow: 2px 2px 7px #ffffff;
+    margin-bottom: 10px;
+   }
+  .contenidiordetexto p {
+    font-size: 25px;
+    margin-top: -100px;
+   }
+  .contenedorIni h2{
+    margin-left: 70px;
+  }
+  .deco{
+    margin-left: -100px;
+  }
+  .deco2{
+    margin-left: 120px;
+  }
+  .deco2 .cl3 {
+    width: 30%;
+   }
+   .deco2 .cl1 {
+    width: 28%;
+   }
+  .deco2 .cl2 {
+    position: absolute;
+    margin-top: 70px;
+    width: 140px;
+   }
+   .infor {
+    width: 600px;
+    height: 1000px;
+    margin-top: 150px;
+   }
+   .infor p{
+    font-size: 20px;
+   }
+   .contenedorvideo iframe {
+    width: 500px;
+    height: 250px;
+    }
+    .contenedorgeneralIni {
+        max-width: 1600px;
+        position: relative;
+        padding: auto;
+        height: 250px;
+        justify-content: space-between;
+        display: flex;
+    }
+    .contenedorvideo {
+        position: absolute;
+        width: 12%;
+        margin-top: 0px;
+        margin-left: 180px;
+    }
+   .videoPac {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 50px;
+   } 
+   .videoPac iframe{
+    width: 500px;
+    height: 300px;
+    margin-left: 15px;
+   } 
+   .lista {
+    text-align: center;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 180px;
+   }
+}
+@media screen and (max-width:708px) {
+    .contenedorgeneralIni {
+        margin-left: -20px;
+    } 
+    .contenidiordetexto p {
+        max-width: 400px;
+        margin-left: -40px;
+    }
+    .deco2 .cl2 {
+        position: absolute;
+        margin-top: 70px;
+        width: 17%;
+    }
+}
+@media screen and (max-width:672px) {
+    .contenedorgeneralIni {
+        margin-left: -60px;
+    } 
+    .list {
+        margin-left: 8%;
+    }
+    .infor p {
+        margin-left: 15%;
+        max-width: 450px;
+        margin-top: -150px;
+    }
+}
+@media screen and (max-width:600px) {
+    .contenedorheader2 h1 {
+        font-size: 350%;
+        margin-top: 50px;   
+    }
+    .contenedorvideo iframe {
+        width: 400px;
+        height: 250px;
+        margin-left: 65px;
+    }
+    .contenidiordetexto p {
+        max-width: 400px;
+        margin-left: -25px;
+    }
+    .container__Servicios2 {
+        height: 1400px;
+    }
+    .contenedorgeneralIni {
+        margin-left: -90px;
+    } 
+    .list {
+        margin-left: 8%;
+        height: 400px;
+    }
+    .list ol li {
+        font-size: 25px;
+        max-width: 400px;
+        margin-top: 5px;
+    }
+    .infor p {
+        margin-left: 15%;
+        max-width: 450px;
+        margin-top: -150px;
+    }
+    .deco {
+        margin-top: -100px;
+        margin-left: -130px;
+    }
+    .videoPac iframe {
+        width: 400px;
+        height: 300px;
+        margin-top: 50px;
+        margin-left: 65px;
+    }
+}
+@media screen and (max-width:552px) {
+    .container__Servicios2 h2 {
+        position: absolute;
+        text-align: center;
+        font-size: 65px;
+        margin-top: 100px;
+        color: rgb(215, 177, 126);
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 5px #78acc2;
+    }
+    .contenedorgeneralIni {
+        margin-left: -150px;
+    }
+    .ContenedorAppli{
+        margin-top: 0px;
+        height: 1500px;
+    }
+    .ContenedorAppli h2 {
+        position: absolute;
+        text-align: center;
+        font-size: 65px;
+        margin-top: 90px;
+        color: rgb(215, 177, 126);
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 5px #78acc2;
+    }
+    .lista {
+        text-align: center;
+        width: 300px;
+        margin-top: 50px;
+        margin-left: 170px;
+    }
+    .contenedorIni h2 {
+        font-size: 300%;
+        margin-left: 50px;
+    }
+    .deco2 {
+        margin-top: 250px;
+    }
+    .infor {
+        width: 500px;
+        height: 1000px;
+        margin-top: 100px;
+        margin-left: -80px;
+    }
+    .videoPac {
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .deco {
+        margin-top: -100px;
+        margin-left: -150px;
+    }
+}
+@media screen and (max-width:502px) {
+    .contenedorgeneralIni {
+        margin-left: -40%;
+    }
+    .contenedorheader2 h1 {
+        font-size: 300%;
+        margin-top: 50px;
+    }
+    .ContenedorAppli{
+        margin-top: 0px;
+        height: 1400px;
+    }
+    .ContenedorAppli h2 {
+        position: absolute;
+        text-align: center;
+        font-size: 65px;
+        margin-top: 90px;
+        color: rgb(215, 177, 126);
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 5px #78acc2;
+    }
+    .lista {
+        text-align: center;
+        width: 300px;
+        margin-top: 50px;
+        margin-left: 170px;
+    }
+    .tablasSu {
+        position: relative;
+        height: 200px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 70px;
+        margin-left: 280px;
+        margin-right: 0px;
+        width: 300px;
+        align-content: center;
+    }
+    .TablaSUB {
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 200px;
+        border: 1px solid rgb(249, 235, 235);
+        border-radius: 10px;
+        box-shadow: 0px 0px 4px 0px rgb(116 145 199);
+        text-align: center;
+        color: rgb(0, 0, 0);
+    }
+    .TablaSUB>.ima1 {
+        width: 170px;
+        height: 42%;
+        margin-top: -10px;
+        margin-left: -130px;
+        padding-top: 0%;
+        padding-left: 5%;
+        margin-bottom: 10px;
+        border-radius: 30%;
+    }
+    .plan {
+        margin-left: 150px;
+        margin-top: -100px;
+    }
+    .list ol li {
+        font-size: 20px;
+        max-width: 300px;
+        margin-top: 5px;
+    }
+    .contenedorIni h2 {
+        font-size: 300%;
+        margin-left: 50px;
+    }
+    .deco2 {
+        margin-top: 250px;
+    }
+    .videoPac {
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .deco {
+        margin-top: -100px;
+        margin-left: -180px;
+    }
+    .imagnesServi .imaA{
+        width: 70%;
+        margin-top: 10px;
+        margin-left: 250px;
+    }
+    .imagnesServi .imaB{
+        position: relative;
+        width: 50%;
+        margin-top: -120px;
+        margin-left: 360px;
+    }
+    .imagnesServi .imaC{
+        margin-top: -50px;
+        margin-left: 260px;
+        width: 48%;
+    }
+    .imagnesServi .imaD{
+        position: absolute;
+        margin-top: -250px;
+        margin-left: 450px;
+        width: 30%;
+    }
+    .imagnesServi .imaE{
+        position: absolute;
+        margin-top: -100px;
+        margin-left: 435px;
+        width: 28%;
+    }
+    .imagnesServi .imaF{
+        position: absolute;
+        margin-top: -330px;
+        margin-left: 55px;
+        width: 18%;
+    }
+    .contenedorvideo iframe {
+        width: 350px;
+        height: 250px;
+        margin-left: 109%;
+    }
+    .deco2{
+        margin-left: 50px;
+    }
+    .deco2 .cl3{
+        width: 32%;
+    }
+    .deco2 .cl1{
+        width: 28%;
+    }
+    .deco2 .cl2{
+        width: 17%;
+        margin-top: 90px;
+    }
+    .videoPac {
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 25%;
+    }
+    .contenidiordetexto p {
+        font-size: 20px;
+        max-width: 300px;
+        margin-left:5%;
+    }
+    .infor p {
+        margin-left: 18%;
+        max-width: 400px;
+        margin-top: -150px;
+    }
+    .videoPac iframe {
+        width: 300px;
+        height: 200px;
+        margin-top: 50px;
+        margin-left: 65px;
+    }
+}
+@media screen and (max-width:460px) {
+    .ContenedorAppli{
+        margin-top: 0px;
+        height: 1300px;
+    }
+    
+}
+@media screen and (max-width:437px) {
+    .deco {
+        margin-top: -100px;
+        margin-left: -50%;
+    }
+    .tablasSu {
+        margin-left: 260px;
+    }
+    .infor p {
+        margin-left: 28%;
+        max-width: 300px;
+        margin-top: -180px;
+        font-size: 18px;
+    }
+    .videoPac {
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 19%;
+    }
+    
+}
+@media screen and (max-width:407px) {
+    .contenedorgeneralIni {
+        margin-left: -50%;
+    }
+    .deco {
+        margin-top: -100px;
+        margin-left: -55%;
+    }
+    .tablasSu {
+        margin-left: 260px;
+    }
+    .infor {
+        width: 400px;
+        height: 1000px;
+        margin-top: 100px;
+        margin-left: -80px;
+    }
+    .infor p {
+        margin-left: 25%;
+        max-width: 300px;
+        margin-top: -180px;
+        font-size: 18px;
+    }
+    .lista {
+        text-align: center;
+        width: 300px;
+        margin-top: 50px;
+        margin-left: 120px;
+    }
+    .videoPac {
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 7%;
+    }
+    .contenedorvideo iframe {
+        width: 300px;
+        height: 250px;
+        margin-left: 159%;
+    }
+    .contenidiordetexto p {
+        font-size: 20px;
+        max-width: 300px;
+        margin-left: 8%;
+    }
+    
+}
+@media screen and (max-width:386px) {
+    .deco {
+        margin-top: -100px;
+        margin-left: -60%;
+    }
+    .tablasSu {
+        margin-left: 280px;
+    }
+    .infor p {
+        margin-left: 28%;
+        max-width: 300px;
+        margin-top: -180px;
+        font-size: 18px;
+    }
+    .videoPac {
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 19%;
+    }
+    .TablaSUB {
+        background-color: rgb(255, 255, 255);
+        width: 80%;
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 320px;
+        border: 1px solid rgb(249, 235, 235);
+        border-radius: 10px;
+        box-shadow: 0px 0px 4px 0px rgb(116 145 199);
+        text-align: center;
+        color: rgb(0, 0, 0);
+    }
+    .TablaSUB>.ima1 {
+        width: 170px;
+        height: 35%;
+        margin-top: -10px;
+        margin-left: 0px;
+        padding-top: 0%;
+        padding-left: 5%;
+        margin-bottom: 10px;
+        border-radius: 30%;
+    }
+    .plan {
+        margin-left: 20px;
+        margin-top: 70px;
+    }
+    .videoPac iframe {
+        width: 300px;
+        height: 200px;
+        margin-top: 50px;
+        margin-left: 25px;
+    }
+    .deco2 .cl2 {
+        width: 17%;
+        margin-top: 60px;
+    }
+    .infor p {
+        margin-left: 22%;
+        max-width: 300px;
+        margin-top: -180px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:379px) {
+
+
+    .deco2 {
+        margin-left: 20px;
+    }
+    .lista {
+        text-align: center;
+        width: 300px;
+        margin-top: 50px;
+        margin-left: 100px;
+    }
+    .videoPac {
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 19%;
+    }
+    .tablasSu {
+        margin-left: -200px;
+    }
+    .TablaSUB {
+        background-color: rgb(255, 255, 255);
+        width: 80%;
+        margin-left: 490px;
+        margin-right: 0px;
+        height: 320px;
+        border: 1px solid rgb(249, 235, 235);
+        border-radius: 10px;
+        box-shadow: 0px 0px 4px 0px rgb(116 145 199);
+        text-align: center;
+        color: rgb(0, 0, 0);
+    }
+    .TablaSUB>.ima1 {
+        width: 170px;
+        height: 35%;
+        margin-top: -10px;
+        margin-left: 0px;
+        padding-top: 0%;
+        padding-left: 5%;
+        margin-bottom: 10px;
+        border-radius: 30%;
+    }
+    .plan {
+        margin-left: 20px;
+        margin-top: 70px;
+    }
+    .videoPac iframe {
+        width: 300px;
+        height: 200px;
+        margin-top: 50px;
+        margin-left: 25px;
+    }
+    .deco2 .cl2 {
+        width: 17%;
+        margin-top: 60px;
+    }
+    .infor p {
+        margin-left: 22%;
+        max-width: 300px;
+        margin-top: -180px;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:379px) {
+    .imagnesServi .imaD {
+        position: absolute;
+        margin-top: -250px;
+        margin-left: 400px;
+        width: 30%;
+    }
+    .imagnesServi .imaE {
+        position: absolute;
+        margin-top: -60px;
+        margin-left: 415px;
+        width: 28%;
+    }
+    .TablaSUB {
+        background-color: rgb(255, 255, 255);
+        width: 80%;
+        margin-left: 450px;
+        margin-right: 0px;
+        height: 320px;
+        border: 1px solid rgb(249, 235, 235);
+        border-radius: 10px;
+        box-shadow: 0px 0px 4px 0px rgb(116 145 199);
+        text-align: center;
+        color: rgb(0, 0, 0);
+    }
+    .container__Servicios2 h2 {
+        position: absolute;
+        text-align: center;
+        font-size: 55px;
+        margin-top: 100px;
+        color: rgb(215, 177, 126);
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 5px #78acc2;
+    }
+    .ContenedorAppli h2 {
+        position: absolute;
+        text-align: center;
+        font-size: 55px;
+        margin-top: 90px;
+        color: rgb(215, 177, 126);
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 5px #78acc2;
+    }
+    .list ol li {
+        font-size: 20px;
+        max-width: 200px;
+        margin-top: 5px;
+    }
+    .list ol{
+        margin-top: -60px;
+    }
+    .list {
+        margin-left: 8%;
+        height: 400px;
+    }
+    .contenedorgeneralIni {
+        margin-left: -60%;
+    }
+    .infor p {
+        margin-left: 22%;
+        max-width: 280px;
+        margin-top: -210px;
+        font-size: 18px;
+    }
+    .videoPac iframe {
+        width: 280px;
+        height: 200px;
+        margin-top: 50px;
+        margin-left: 25px;
+    }
+
+}
+@media screen and (max-width:356px) {
+    .contenedorheader2 h1 {
+        font-size: 300%;
+        margin-top: -10px;
+    }
+}
+@media screen and (max-width:354px) {
+    .contenedorheader2 h1 {
+        font-size: 250%;
+        margin-top: -10px;
+    }
+    .contenedorheader2 h2 {
+        font-size: 120%;
+        max-width: 250px;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:346px) {
+    .contenidiordetexto p {
+        font-size: 20px;
+        max-width: 200px;
+        margin-left: 8%;
+    }
+    
+    .contenedorvideo iframe {
+        width: 250px;
+        height: 250px;
+        margin-left: 172%;
+    }
+    .deco {
+        margin-top: -100px;
+        margin-left: -70%;
+    }
+    .TablaSUB {
+        background-color: rgb(255, 255, 255);
+        width: 80%;
+        margin-left: 470px;
+        margin-right: 0px;
+        height: 320px;
+        border: 1px solid rgb(249, 235, 235);
+        border-radius: 10px;
+        box-shadow: 0px 0px 4px 0px rgb(116 145 199);
+        text-align: center;
+        color: rgb(0, 0, 0);
+    }
+    .infor p {
+        margin-left: 29%;
+        max-width: 230px;
+        margin-top: -230px;
+        font-size: 18px;
+    }
+    .videoPac iframe {
+        width: 260px;
+        height: 200px;
+        margin-top: 50px;
+        margin-left: 49px;
+    }
+}
+@media screen and (max-width:346px) {
+  .infor {
+    width: 400px;
+    height: 1000px;
+    margin-top: 100px;
+    margin-left: -150px;
+  }
+ .infor p {
+    margin-left: 39%;
+    max-width: 230px;
+    margin-top: -230px;
+    font-size: 18px;
+  }
+  .lista {
+    text-align: justify;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 200px;
+  }
+  .videoPac {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 29%;
+  }
+}
+@media screen and (max-width:326px) {
+    .deco {
+        margin-top: -100px;
+        margin-left: -80%;
+    }
+     
+}
+@media screen and (max-width:307px) {
+    .contenedorgeneralIni {
+        margin-left: -70%;
+    }
+    .contenidiordetexto p {
+        font-size: 20px;
+        max-width: 200px;
+        margin-left: 10%;
+    }
+    .contenedorIni h2 {
+        font-size: 250%;
+        margin-left: 50px;
+    }
+    .deco {
+        margin-top: -100px;
+        margin-left: -90%;
+    }
+    .imagnesServi .imaA {
+        width: 50%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 280px;
+    }
+    .imagnesServi .imaC {
+        margin-top: -50px;
+        margin-left: 280px;
+        width: 35%;
+    }
+    .imagnesServi .imaD {
+        position: absolute;
+        margin-top: -190px;
+        margin-left: 430px;
+        width: 30%;
+    }
+    .TablaSUB {
+        background-color: rgb(255, 255, 255);
+        width: 74%;
+        margin-left: 490px;
+        margin-right: 0px;
+        height: 320px;
+        border: 1px solid rgb(249, 235, 235);
+        border-radius: 10px;
+        box-shadow: 0px 0px 4px 0px rgb(116 145 199);
+        text-align: center;
+        color: rgb(0, 0, 0);
+    }
+}
+
+@media screen and (max-width:297px) {
+    .videoPac {
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 38%;
+    }
+    .videoPac iframe {
+        width: 220px;
+        height: 180px;
+        margin-top: 30px;
+        margin-left: 59px;
+    }
+    .ContenedorAppli h2 {
+        position: absolute;
+        text-align: center;
+        font-size: 45px;
+        margin-top: 90px;
+        color: rgb(215, 177, 126);
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 5px #78acc2;
+    }
+    .container__Servicios2 h2 {
+        position: absolute;
+        text-align: center;
+        font-size: 45px;
+        margin-top: 100px;
+        color: rgb(215, 177, 126);
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 5px #78acc2;
+    }
+}
+ 
